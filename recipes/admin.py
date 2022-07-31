@@ -1,9 +1,9 @@
 from django.contrib import admin
 
-from recipes.models import Category, Recipe
+from .models import Category, Recipe
 
 
-class CategoryAdmin (admin.ModelAdmin):
+class CategoryAdmin(admin.ModelAdmin):
     ...
 
 
